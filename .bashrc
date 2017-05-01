@@ -10,9 +10,11 @@ alias gb='git branch '
 alias gd='git diff '
 alias go='git checkout '
 alias gs='git status '
-alias golo='git log '
+alias golo='git log --graph --pretty=format:'"'"'%Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s/'"'"' '
 alias gcm='git commit -am '
 alias gaa='git add -A'
+alias grh='git reset --hard '
+alias grs='git reset --soft '
 
 ### PATHS ###
 export PATH="/usr/local/bin:$PATH"
