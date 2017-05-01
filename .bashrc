@@ -12,6 +12,7 @@ alias go='git checkout '
 alias gs='git status '
 alias golo='git log '
 alias gcm='git commit -am '
+alias gaa='git add -A'
 
 ### PATHS ###
 export PATH="/usr/local/bin:$PATH"
@@ -22,7 +23,6 @@ if [ -f /usr/local/share/gitprompt.sh ]; then
    # Set config variables first
    GIT_PROMPT_ONLY_IN_REPO=1
 
-   
    # GIT_PROMPT_FETCH_REMOTE_STATUS=0   # uncomment to avoid fetching remote status
    # GIT_PROMPT_SHOW_UPSTREAM=1 # uncomment to show upstream tracking branch
    # GIT_PROMPT_SHOW_UNTRACKED_FILES=all # can be no, normal or all; determines counting of untracked files
@@ -32,7 +32,6 @@ if [ -f /usr/local/share/gitprompt.sh ]; then
    # GIT_PROMPT_START=...    # uncomment for custom prompt start sequence
    # GIT_PROMPT_END=...      # uncomment for custom prompt end sequence
 
-  
    # as last entry source the gitprompt script
    # GIT_PROMPT_THEME=Custom # use custom theme specified in file GIT_PROMPT_THEME_FILE (default ~/.git-prompt-colors.sh)
    # GIT_PROMPT_THEME_FILE=~/.git-prompt-colors.sh
