@@ -1,5 +1,5 @@
 #NOTE: Sourced by .bash_profile
-#source .git_prompt.sh
+#source ~/bash_profile/.git_prompt.sh
 #git prompt is no longer being used
 ### ALIASES ###
 alias lsa='ls -al '
