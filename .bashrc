@@ -35,6 +35,6 @@ if [ -f /usr/local/share/gitprompt.sh ]; then
    # as last entry source the gitprompt script
    # GIT_PROMPT_THEME=Custom # use custom theme specified in file GIT_PROMPT_THEME_FILE (default ~/.git-prompt-colors.sh)
    # GIT_PROMPT_THEME_FILE=~/.git-prompt-colors.sh
-   GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
+   GIT_PROMPT_THEME=Single_line_Solarized # use theme optimized for solarized color scheme
    . /usr/local/share/gitprompt.sh
 fi
