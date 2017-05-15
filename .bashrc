@@ -15,6 +15,7 @@ alias gcm='git commit -am '
 alias gaa='git add -A'
 alias grh='git reset --hard '
 alias grs='git reset --soft '
+alias gprune='git remote prune origin'
 
 ### PATHS ###
 export PATH="/usr/local/bin:$PATH"
