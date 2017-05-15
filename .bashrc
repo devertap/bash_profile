@@ -16,6 +16,7 @@ alias gaa='git add -A'
 alias grh='git reset --hard '
 alias grs='git reset --soft '
 alias gprune='git remote prune origin'
+alias gshowprune='git remote show origin'
 
 ### PATHS ###
 export PATH="/usr/local/bin:$PATH"
