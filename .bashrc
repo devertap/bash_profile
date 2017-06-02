@@ -17,9 +17,17 @@ alias grh='git reset --hard '
 alias grs='git reset --soft '
 alias gprune='git remote prune origin'
 alias gshowprune='git remote show origin'
+alias git='hub '
+
+#PostgreSQL aliases
+alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pg-stop= 'pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+
 
 ### PATHS ###
 export PATH="/usr/local/bin:$PATH"
+
+export PG_USER=postgres
 
 ### PROMPT ###
 if [ -f /usr/local/share/gitprompt.sh ]; then
