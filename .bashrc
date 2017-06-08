@@ -7,7 +7,7 @@ alias cls='clear '
 
 # Git Aliases
 alias gb='git branch '
-alias gd='git diff '
+alias gd='git diff --color-words '
 alias go='git checkout '
 alias gs='git status '
 alias golo='git log --graph --pretty=format:'"'"'%Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s/'"'"' '
@@ -18,6 +18,8 @@ alias grs='git reset --soft '
 alias gprune='git remote prune origin'
 alias gshowprune='git remote show origin'
 alias git='hub '
+alias grecent='git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"'
+
 
 #PostgreSQL aliases
 alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
@@ -49,4 +51,8 @@ if [ -f /usr/local/share/gitprompt.sh ]; then
    # GIT_PROMPT_THEME_FILE=~/.git-prompt-colors.sh
    GIT_PROMPT_THEME=Single_line_Solarized # use theme optimized for solarized color scheme
    . /usr/local/share/gitprompt.sh
+fi
+
+if ! ssh-add -L >/dev/null; then
+    ssh-add -K
 fi
