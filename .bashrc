@@ -19,11 +19,12 @@ alias gprune='git remote prune origin'
 alias gshowprune='git remote show origin'
 alias git='hub '
 alias grecent='git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"'
-
+alias gaddup='git remote add upstream '
+alias gpup='git fetch origin -v; git fetch upstream -v; git merge upstream/master'
 
 #PostgreSQL aliases
 alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
-alias pg-stop= 'pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 
 ### PATHS ###
