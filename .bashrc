@@ -1,6 +1,5 @@
 #NOTE: Sourced by .bash_profile
-#source ~/bash_profile/.git_prompt.sh
-#git prompt is no longer being used
+# https://github.com/magicmonty/bash-git-prompt make sure to brew install it
 ### ALIASES ###
 alias lsa='ls -al '
 alias cls='clear '
